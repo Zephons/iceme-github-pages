@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mangez sain avec Zeppy</title>
+    <title>Eat healthy with Zep!</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -22,59 +22,120 @@
   </head>
   <body>
 
-       <div id="container">
-            <h1>Mangez Cantonais</h1>
-            <h3>Patron</h3>
-            <img src="images/profil.jpg" id="profil" class="icon">
-            <div id="teaser"> 
-              <h2>Dégustez des Plats Cantonais</h2>
-              <img src="images/icon_57707/icon_57707.png" width="48" class="icon"> 
-              <p>
-                Choisissez jusque trois ingrédients
-                parmi notre catalogue de <strong>20</strong> légumes frais.
-              </p>
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Zeppy, an authentic cantonese restaurant close to you!</a>
+    </div>
 
-              <img src="images/icon_29388/icon_29388.png" width="48" class="icon">
-              <p>
-                L'application vous <strong>géolocalise</strong> automatiquement et vous
-                indique le temps d'attente estimé.
-              </p>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Ingredients</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Follow me!<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://twitter.com/zeppy"><i class="fa fa-twitter-square"></i>  Twitter</a></li>
+            <li><a href="https://facebook.com/zeppy"><i class="fa fa-facebook-square"></i>  Facebook</a></li>
+            <li><a href="https://instagram.com/zeppy"><i class="fa fa-instagram"></i>  Instagram</a></li>
+            <li><a href="https://youtube.com/zeppy"><i class="fa fa-youtube-square"></i>  Youtube</a></li>
 
-              <img src="images/icon_24755/icon_24755.png" width="48" class="icon">
-              <p>
-                Un de nos supers livreurs fonce pour vous apporter votre plat,
-                qui sera <strong>préparé juste à temps</strong>.
-              </p>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>        
 
-              <img src="images/icon_17805/icon_17805.png" width="48" class="icon">
-              <p>
-                Pas de monnaie? Pas un problème, le paiement est <strong>automatiquement</strong>
-                débité sur votre carte bancaire.
-              </p>
+                <div id="wrapper">
+                  <div id="patron">
+                    <img src="images/profil.jpg" id="profil">
+                  </div>
+                  <h2>Authentic Cantonese Dishes</h2>
+                  <button type="button" class="btn btn-primary btn-lg">Make Your Order</button>
+                </div>
+
+              <div id="teaser" class="row">
+                <div class="col-sm-6 col-md-3 feature"> 
+                  <img src="images/icon_57707/icon_57707.png" width="48">  
+                  <p>
+                    Make your choice among our <strong>over 100</strong> home-made dishes.
+                  </p>
+                  </div>
+                  <div class="col-sm-6 col-md-3 feature">
+                  <img src="images/icon_29388/icon_29388.png" width="48">
+                  <p>
+                    The application will <strong>geolocalize</strong> you automatically and inform you of the estimated waiting time.
+                  </p>
+                  </div>
+                  <div class="col-sm-6 col-md-3 feature">
+                  <img src="images/icon_24755/icon_24755.png" width="48">
+                  <p>
+                    One of our super delivery men will try his best to bring your fresh dishes as soons as possible which are <strong>prepared just after your order</strong>.
+                  </p>
+                  </div>
+                  <div class="col-sm-6 col-md-3 feature">
+                  <img src="images/icon_17805/icon_17805.png" width="48">
+                  <p>
+                    No cash? Don't worry, the payment will be debited <strong>automatically</strong> from your credit card.
+                  </p>
+                  </div>
+            </div>
             </div>
 
-            <h3>Suivez-moi</h3>
+            <div id="newsletter" class="container">
+              <div class="row">
+                <div class="col-xs-12 text-center">
+                  <h3>Newsletter Subscription</h3>
+                  <div id="mc_embed_signup">
+                    <form action="http://iceme.us8.list-manage.com/subscribe/post?u=0f796021763dc414ae74dfa60&amp;id=d4fc47ad7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate="">
+                      <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email Address" required="">
+                      <input type="submit" value="Follow me!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                    </form>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <ul>
-              <li>
-                Sur <a href="https://twitter.com/zeppycodes">twitter <i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                Sur <a href="https://facebook.com/zeppycodes">facebook <i class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                Sur <a href="https://instagram.com/zeppycodes">instagram <i class="fa fa-instagram"></i></a>
-              </li>
-              <li>
-                Sur <a href="https://youtube.com/zeppycodes">youtube <i class="fa fa-youtube"></i></a>
-              </li>
-            </ul>
+
+            <div id="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3">
+                  <ul class="list-inline social text-center">
+                    <li>
+                      <a href="https://twitter.com/zeppy"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://facebook.com/zeppy"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com/zeppy"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://youtube.com/zeppy"><i class="fa fa-youtube"></i></a>
+                    </li>
+                  </ul>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="text-center">
+                      Zeppy is a startup company created under the framework of <a href="http://www.zeppycodes.fr">Zeppycodes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             
-            <p>
-              Zeppy est une entreprise créée dans le cadre de <a href="http://www.zeppycodes.fr">zeppycodes</a>
-
-            </p>
-          </div>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
