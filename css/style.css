@@ -106,10 +106,15 @@ h3 {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.navbar .navbar-text {
+  color: #aaaaaa;
+}
+
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: #bbbbbb;
 }
+
 
 .navbar-transparent .navbar-brand:hover,
 .navbar-transparent .navbar-brand:active,
