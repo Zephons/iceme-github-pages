@@ -110,6 +110,11 @@ h3 {
   color: #aaaaaa;
 }
 
+.navbar .navbar-brand {
+  font-size: 23px;
+}
+
+
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: #cccccc;
