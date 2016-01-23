@@ -40,6 +40,7 @@ body{
 .feature p {
 	font-weight: 300;
 	letter-spacing: 1px;
+	padding-bottom: 2em;
 }
 
 .feature img {
@@ -106,14 +107,9 @@ h3 {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar .navbar-text {
-  color: #aaaaaa;
-}
-
 .navbar .navbar-brand {
   font-size: 20px;
 }
-
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
