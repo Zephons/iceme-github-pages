@@ -103,6 +103,19 @@ h3 {
 	padding-bottom: 8px;
 }
 
+#contact {
+	padding-top: 10em;
+	padding-bottom: 6em;
+}
+
+#address {
+	padding-top: 4em;
+}
+
+#address .blank{
+	color: white;
+}
+
 .navbar-transparent {
   background-color: rgba(0, 0, 0, 0.7);
 }
